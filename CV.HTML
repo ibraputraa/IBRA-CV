@@ -1,51 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Mirip Template</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0; /* abu terang, biar kontras */
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* efek bayangan halus */
+      border-radius: 6px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid #f39c12;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+    }
+
+    .header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #f39c12;
+      margin-right: 20px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #2c3e50;
+    }
+
+    .header p {
+      margin: 5px 0 0;
+      color: #555;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .section h2 {
+      font-size: 18px;
+      color: #e67e22;
+      border-bottom: 1px solid #eee;
+      margin-bottom: 10px;
+      padding-bottom: 3px;
+    }
+
+    .section p, .section li {
+      font-size: 14px;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .work-exp h3, .section h3 {
+      margin: 5px 0;
+      font-size: 15px;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+    .work-exp small, .section small {
+      display: block;
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 5px;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .skills div {
+      font-size: 14px;
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 8px;
+      border-radius: 4px;
+    }
+
+    .contact {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #333;
+      text-align: center;
+      line-height: 1.6;
+      border-top: 1px solid #eee;
+      padding-top: 15px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Muhammmad Ibrahim Putra Kisworo </h1>
-    <hr size="2" color="black">
+  <div class="container">
     
-    <h2>Profile</h2>
-    <img src="cv-gambar.png" alt="Foto Profil" width="150">
-    <p>Merupakan pribadi yang baik, rajin, dan pantang menyerah</p>
-    <hr size="2" color="black">
+    <div class="header">
+      <img src="cv-gambar.png" alt="Foto Profil">
+      <div>
+        <h1>Muhammmad Ibrahim Putra Kisworo</h1>
+        <p>Mahasiswa Sistem Informasi</p>
+      </div>
+    </div>
 
-    <h2>Skill</h2>
-    <p>UI/UX | Gambar | Olahraga</p>
-    <hr size="2" color="black">
+    <div class="section">
+      <h2>Personal Profile</h2>
+      <p>Saya merupakan pribadi yang disiplin, rajin, dan pantang menyerah dalam menghadapi setiap tantangan. Memiliki semangat belajar yang tinggi serta selalu berusaha mengembangkan diri baik dalam bidang akademik maupun pengalaman organisasi. Terbiasa bekerja dalam tim dengan komunikasi yang baik, namun juga mampu menyelesaikan tugas secara mandiri dengan penuh tanggung jawab. Dengan pengalaman mengikuti kepanitiaan kampus dan pelatihan, saya memiliki kemampuan beradaptasi dengan cepat di lingkungan baru serta mampu berkontribusi secara positif untuk mencapai tujuan bersama.</p>
+    </div>
 
-    <h2>Experience</h2>
-    <ul>
-        <li>
-            <strong>Panitia PKKMB Univ</strong><br>
-            Menjadi Divisi Medis
-        </li>
-        <li>
-            <strong>Panitia Bukber SMA</strong><br>
-            Menjadi Divisi Acara
-        </li>
-        <li>
-            <strong>Pelatihan YHP</strong><br>
-            Menjadi Anggota aktif YHP
-        </li>
-        
-    </ul>
-    <hr size="2" color="black">
+    <div class="section work-exp">
+      <h2>Work Experience</h2>
+      <h3>Panitia PKKMB Univ – Divisi Medis</h3>
+      <small>2024</small>
+      <p>Bertugas dalam menjaga kesehatan peserta dan membantu tim medis.</p>
 
-    <h2>Contact</h2>
-    <p>+6287853157404     |     Email: ibrai7730@gmail.com     |     IG: ibra.putraa</p>
+      <h3>Panitia Bukber SMA – Divisi Acara</h3>
+      <small>2022</small>
+      <p>Mengelola acara dan mengatur jalannya kegiatan.</p>
 
+      <h3>Pelatihan YHP – Anggota Aktif</h3>
+      <small>2023</small>
+      <p>Ikut serta dalam kegiatan pelatihan pengembangan diri.</p>
+    </div>
 
-   
+    <div class="section">
+      <h2>Key Skills</h2>
+      <div class="skills">
+        <div>UI/UX</div>
+        <div>Gambar</div>
+        <div>Olahraga</div>
+      </div>
+    </div>
 
+    <div class="section">
+      <h2>Education</h2>
+      <h3>Universitas TELKOM</h3>
+      <small>2022 - Sekarang</small>
+      <p>S1 Sistem Informasi</p>
+    </div>
 
-    
-
-    
+    <div class="contact">
+       +6287853157404 <br>
+       ibrai7730@gmail.com <br>
+       IG: ibra.putraa
+    </div>
+  </div>
 </body>
-
 </html>
